@@ -23,6 +23,10 @@ ul {padding: 0;}
     margin: 14px 16px 0 0;
     float: left;
 }
+.navigation .form-group [class^="col-"]{
+    padding-right: 3px;
+    padding-left: 3px;
+}
 .logo {
     background: url('../images/logo.png');
     width: 122px;
@@ -98,6 +102,16 @@ ul {padding: 0;}
     display: inline-block;
     vertical-align: top;
     text-align: justify;
+}
+@media (max-width: 768px) {
+    .form-group [class^="col-"] select,
+    .form-group [class^="col-"] button,
+    .form-group [class^="col-"] input[type='text']{
+        font-size: 12px;
+    }
+    .margined{
+        margin-bottom: 95px;
+    }
 }
 
 
