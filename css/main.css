@@ -1,0 +1,120 @@
+.rtl {direction: rtl;}
+.ltr {direction: ltr;}
+body {
+    font: 12px/15px Arial, Helvetica, sans-serif;
+    /*min-width: 1021px;*/
+}
+ul {padding: 0;}
+.social-links button:hover{text-decoration: none !important;}
+.wrapper {
+    padding: 0 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#header .container {padding: 0;}
+.search-box > div {
+    padding: 0;
+}
+.navbar-form > button {width: 90px;}
+.links-group a {
+    margin: 14px 16px 0 0;
+    float: left;
+}
+.logo {
+    background: url('../images/logo.png');
+    width: 122px;
+    height: 51px;
+}
+.logo a {
+    display: block;
+    height: 100%;
+    text-indent: -9999px;
+}
+.logo-name {
+    font-weight: bold;
+    display: inline-block;
+    margin: 25px 10px 0 0;
+}
+.search-box {margin: 15px 0 8px 0;}
+.social-links button {
+    padding: 6px 0 4px 30px;
+    margin: 0 18px 0 0;;
+}
+.social-links button:after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    left: 0;
+    width: 24px;
+    height: 24px;
+}
+.social-links button.twitter:after {background: url('../images/Twitter-24.png');}
+.social-links button.facebook:after {background: url('../images/Facebook-24.png');}
+
+.navbar {margin: 0 0 8px 0;}
+.navbar-form{ margin: 0 0 0 30px;}
+
+.panel-heading .panel-title {color: #8DC63F;}
+.panel-body {padding: 0;}
+.panel-body ul li {
+    padding: 8px 15px;
+    border-bottom: 1px solid #bbb59f;
+}
+.panel-body ul li:last-child {border: none;}
+.panel-body ul li p.title {font-weight: bold;}
+.container.box {background-color: #f2f2f2;}.jumbotron {
+    text-align: center;
+    margin: 0 0 18px 0;
+    color: #428bca;
+}
+.sidebar{padding-top: 15px;}
+.frame {
+    border: 1px solid #d5d5d6;
+    padding: 15px 15px 44px 15px;
+}
+.frame h2 {
+     font: inherit;
+    font-weight: bold;
+}
+.special {
+    background: #567800;
+    margin: 8px 0;
+}
+.margined {margin: 0 0 131px 0;}
+
+.btn-group.link-group {
+    background: #fff;
+    margin: 0 0 30px;
+}
+.container.box > .row:last-of-type {
+    border-bottom: 1px solid #bbb59f;
+}
+.btn-group.link-group .btn-link {
+    padding: 0 5px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
